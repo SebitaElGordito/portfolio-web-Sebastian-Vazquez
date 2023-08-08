@@ -560,22 +560,22 @@ footer{
         opacity: 1;
         top: 10%;
         left: 5%;
-        line-height: 40px;
+        line-height: 35px;
     }
 
     .presentacion{
-        font-size: 2em;
+        font-size: 1.9em;
         padding: 0;
        
     }
     
     .nombre{
-        font-size: 2em;
+        font-size: 1.9em;
         
     }
     
     .carrera{
-        font-size: 1.6em;
+        font-size: 1.5em;
         padding: 0;
         
     }
@@ -706,7 +706,7 @@ footer{
     .proyecto{
         display: flex;
         flex-direction: column;
-        margin-top: 550px;
+        margin-top: 750px;
     }
 
     .proyectos__contenido{
