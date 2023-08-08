@@ -286,9 +286,9 @@ nav a:hover{
 
 .habilidades{
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
     grid-template-columns: 50% 50%;
     grid-template-rows: 25% 25% 25% 25%;
-    height: calc(60vh - 50px);
     gap: .8rem;
     max-width: 1200px;
     margin: 0 auto;
@@ -428,7 +428,6 @@ nav a:hover{
     gap: 30px;
     justify-content: space-between;
     text-align: center;
-    padding-bottom: 50px;
 }
 
 .proyectos__titulo{
@@ -653,7 +652,7 @@ footer{
     }
 
     .titulo__home{
-        font-size: 2.2em;   
+        font-size: 1.8em;   
         
     }
 
@@ -669,16 +668,6 @@ footer{
         font-size: 18px;
     }
 
-    .corriendo:hover{
-        scale: 1.5;
-        transition: 0.5s;
-    }
-
-    .corriendo2:hover{
-        scale: 1.5;
-        transition: 0.5s;
-    }
-
     .cv__btn{
         font-size: 15px;
         width: 75%;
@@ -687,26 +676,25 @@ footer{
     .habilidades{
         display: flex;
         flex-direction: column;
-        font-size: 1em;
+        font-size: 0.8em;
         width: 90%;
+        margin: 0 auto;
     }
 
     .skills__bar{
-    width: 150px;
+    width: 110px;
     }
 
     .skills__bar::after{
     content: "";
-    width: 150px;
-    left: -150px;
+    width: 110px;
+    left: -110px;
     }
 
 
 
     .proyecto{
-        display: flex;
-        flex-direction: column;
-        margin-top: 750px;
+        margin: 0 auto;
     }
 
     .proyectos__contenido{
@@ -714,10 +702,11 @@ footer{
     }
 
     .img__proyectos{
-        height: 50%;
-        width: 50%;
+        height: 60%;
+        width: 60%;
     }
     .contacto{
+        margin-top: 25px;
         width: 90%;
     }
 
