@@ -195,6 +195,10 @@ nav a:hover{
     text-shadow: 2px 2px 4px #5f4e38;
 }
 
+.titulo__home-contacto{
+    margin: 1em 0 1em;
+}
+
 .perfil p{
     margin: 0 0 1em;
     font-size: 1.5em;
@@ -236,7 +240,12 @@ nav a:hover{
 
 .cv__btn{
     margin: 0 auto;
-    width: 15%;
+    padding-top: 30px;
+    animation: wiggle 2s linear infinite;
+}
+
+.cv__btn-descarga, .cv__btn-vista{
+    margin: 0 4px;
     padding: .3em;
     font-size: 20px;
     font-weight: bold;
@@ -247,13 +256,9 @@ nav a:hover{
     cursor: pointer;
 }
 
-.cv__btn:hover{
+.cv__btn-descarga:hover, .cv__btn-vista:hover{
     background: darkorange;
 }
-
-.cv__btn {
-    animation: wiggle 2s linear infinite;
-  }
   
 @keyframes wiggle {
     0%, 7% {
@@ -411,38 +416,62 @@ nav a:hover{
     }
 }
 
+.proyecto{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .proyectos{
-    width: 80%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
     margin: 0 auto;
     gap: 30px;
     justify-content: space-between;
     text-align: center;
-    font-size: 1.5em;
     padding-bottom: 50px;
 }
 
+.proyectos__titulo{
+    font-family: 'Noto Serif Ahom', serif;
+    font-weight: 600; 
+    font-size: 1.3em;
+}
 
+.proyectos__descripcion{
+    font-family: 'Noto Serif Ahom', serif;
+    padding-top: 10px;
+}
+
+.img__proyectos{
+    border-radius: 25px;
+    box-shadow: 5px 8px 12px black;
+
+}
 
 .contacto{
     text-shadow: 3px 3px 5px #aaaaaa;
+    background: url(../imagenes/bg.jpg);
+    border-radius: 50px;
+    max-width: 1100px;
     width: 940px;
+    padding: 2px;
     margin: 0 auto;
     text-align: center;
 
 }
 
 .contacto__formulario{
-    background: url(../imagenes/bg.jpg);
-    border-radius: 15px;
-    max-width: 1100px;
-    padding: 50px;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    padding: 15px;
+    backdrop-filter: blur(3px);
+    border-radius: 25px;
     color: #9b9a9a;
 }
 
 form{
-    margin: 40px 0;
+    margin: 20px 0;
     
 }
 
@@ -485,6 +514,7 @@ footer{
     text-align: center;
     background: url(../imagenes/bg.jpg);
     padding: 40px;
+    margin-top: 10px;
 }
 
 .redes{
@@ -530,22 +560,22 @@ footer{
         opacity: 1;
         top: 10%;
         left: 5%;
-        line-height: 30px;
+        line-height: 40px;
     }
 
     .presentacion{
-        font-size: 1.6rem;
+        font-size: 2em;
         padding: 0;
        
     }
     
     .nombre{
-        font-size: 1.6rem;
+        font-size: 2em;
         
     }
     
     .carrera{
-        font-size: 1.2rem;
+        font-size: 1.6em;
         padding: 0;
         
     }
@@ -623,7 +653,7 @@ footer{
     }
 
     .titulo__home{
-        font-size: 1.8em;   
+        font-size: 2.2em;   
         
     }
 
@@ -633,10 +663,10 @@ footer{
         position: relative;
     }
 
-    .perfil{
+    .perfil p{
         width: 100%;
         margin: 0 auto;
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .corriendo:hover{
@@ -651,13 +681,13 @@ footer{
 
     .cv__btn{
         font-size: 15px;
-        width: 25%;
+        width: 75%;
     }
 
     .habilidades{
         display: flex;
         flex-direction: column;
-        font-size: .8em;
+        font-size: 1em;
         width: 90%;
     }
 
@@ -676,7 +706,7 @@ footer{
     .proyecto{
         display: flex;
         flex-direction: column;
-        margin-top: 750px;
+        margin-top: 550px;
     }
 
     .proyectos__contenido{
