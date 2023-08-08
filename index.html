@@ -4,13 +4,17 @@
 
 <head>
 
-    <title>Portafolio</title>
+    <title>Sebastian Vazquez</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/menu.css">
     <script defer src="./js/app.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -30,29 +34,29 @@
 
             <div class="idiomas">
                 <span class="español">
-                    <a href="../index.html"><img class="flag" height="30" width="30" src="imagenes/españa2.png" alt="idioma_español">
+                    <a href="./index.html"><img class="flag" height="30" width="30" src="imagenes/españa2.png" alt="idioma_español">
                         <p>Español</p>
                     </a>
                 </span>
                 <span class="ingles">
-                    <a href="../English/index.html"><img class="flag" height="30" width="30" src="imagenes/Inglaterra2.png" alt="idioma_english">
+                    <a href="./English/index.html"><img class="flag" height="30" width="30" src="imagenes/Inglaterra2.png" alt="idioma_english">
                         <p>English</p>
                     </a>
                 </span>
                 <span class="aleman">
-                    <a href="../Deutsch/index.html"><img class="flag" height="30" width="30" src="imagenes/alemania2.png" alt="idioma_deutsch">
+                    <a href="./Deutsch/index.html"><img class="flag" height="30" width="30" src="imagenes/alemania2.png" alt="idioma_deutsch">
                         <p>Deutsch</p>
                     </a>
                 </span>
             </div>
 
             <button class="open__menu" aria-label="Abrir menú">
-                <img height="20" width="20" src="../imagenes/Logo-menu.png" alt="abrir menú">
+                <img height="20" width="20" src="imagenes/Logo-menu.png" alt="abrir menú">
             </button>
 
             <ul class="menu">
                 <button class="close__menu" aria-label="Cerrar menú">
-                    <img height="28" width="28" src="../imagenes/close-button.jpeg" alt="cerrar menú">
+                    <img height="28" width="28" src="imagenes/close-button.jpeg" alt="cerrar menú">
                 </button>
 
                 <li><a href="#home" class="selected">Inicio</a></li>
@@ -67,7 +71,7 @@
 
     </header>
 
-    <img class="banner" src="../imagenes/banner/bannerbici6.jpg" id="home">
+    <img class="banner" src="imagenes/bannerbici6.jpg" id="home">
 
     <div class="nombre__apellido">
         <h1 class="presentacion">Hola, soy</h1>
@@ -82,12 +86,12 @@
 
             <h2 class="titulo__home">Sobre mí...</h2>
 
-            <img class="corriendo" src="../imagenes/corriendo (3).jpg" alt="corriendo">
+            <img class="corriendo" src="imagenes/corriendo (3).jpg" alt="corriendo">
 
             <p>Soy una persona versátil y capaz de simultanear varias tareas. Con amplia experiencia en entornos
                 laborales en los que se valora el compromiso, la responsabilidad, y la capacidad para trabajar en equipo. </p>
 
-            <img class="corriendo2" src="../imagenes/hobby2 (2).jpg" alt="corriendo con amigo">
+            <img class="corriendo2" src="imagenes/hobby2 (2).jpg" alt="corriendo con amigo">
             
             <p>Me caracterizo por mi dinamismo, proactividad y entusiasmo. Poseo buenos conocimientos digitales y 
                 busco desarrollarme profesionalmente en el mundo IT.</p>
@@ -95,10 +99,13 @@
             <p>Amante de la tecnología, la naturaleza, y de una vida equilibrada entre la familia, el trabajo y los
                 deportes.</p>
 
-            <img class="bicicleta" src="../imagenes/bici-banner (2).jpg" alt="Andando en bicicleta">
+            <img class="bicicleta" src="imagenes/bici-banner (2).jpg" alt="Andando en bicicleta">
 
-            <button class="cv__btn">Descargar CV</button>
+            <div class="cv__btn">
+                <a class="cv__btn-descarga" href="/CV_SebastianVazquez.pdf" download="/CV_SebastianVazquez.pdf" >Descargar CV</a>
 
+                <a class="cv__btn-vista" href="/CV_SebastianVazquez.pdf">Ver CV</a>
+            </div>
         </section>
 
         
@@ -235,14 +242,13 @@
 
                 <li>
                     <div class="proyectos__contenido">
-                        <h2 class="proyectos__titulo">Cabello</h2>
-                        <img class="img__proyectos" height="450" width="450" src="imagenes/cabello.jpg" >
-                        <p class="proyectos__descripcion">Con tijera, o máquina, a gusto del cliente.</p>
+                        <h2 class="proyectos__titulo">Calculadora</h2>
+                        <img class="img__proyectos" height="350" width="350" src="imagenes/Captura-Calculadora.png" >
+                        <p class="proyectos__descripcion">HTML5, CSS3 y JAVASCRIPT.</p>
                     </div>
 
                     <div class="proyectos__enlace">
-                        <a href="https://www.linkedin.com/in/sebastian-vazquez-67353722b"><img class="red" height="40" width="40" src="../imagenes/logo-linkedin.png" alt="logo linkedin">
-                            <p class="linked">LinkedIn</p>
+                        <a href="https://github.com/SebitaElGordito/Calculadora-html5-css3-javascript"><img class="red" height="40" width="40" src="imagenes/logo-github.png" alt="logo github">
                         </a>
                     </div>
 
@@ -250,14 +256,13 @@
 
                 <li>
                     <div class="proyectos__contenido">
-                        <h2 class="proyectos__titulo">Barba</h2>
-                        <img class="img__proyectos" height="450" width="450" src="imagenes/barba.jpg">
-                        <p class="proyectos__descripcion">Corte y diseño profesional de barba.</p>
+                        <h2 class="proyectos__titulo">Comidas Vegan Ecommerce</h2>
+                        <img class="img__proyectos" height="350" width="350" src="imagenes/Captura-Comida-pagina.png">
+                        <p class="proyectos__descripcion">HTML5, CSS3 y JAVASCRIPT.</p>
                     </div>
 
                     <div class="proyectos__enlace">
-                        <a href="https://www.linkedin.com/in/sebastian-vazquez-67353722b"><img class="red" height="40" width="40" src="../imagenes/logo-linkedin.png" alt="logo linkedin">
-                            <p class="linked">LinkedIn</p>
+                        <a href="https://github.com/sebitaelgordito/Pagina-ordenar-comidas-html-css-javascript"><img class="red" height="40" width="40" src="imagenes/logo-github.png" alt="logo github">
                         </a>
                     </div>
 
@@ -265,14 +270,13 @@
 
                 <li>
                     <div class="proyectos__contenido">
-                        <h2 class="proyectos__titulo">Cabello + Barba</h2>
-                        <img class="img__proyectos" height="450" width="450" src="imagenes/cabello+barba.jpg">
-                        <p class="proyectos__descripcion">Paquete completo de cabello y barba.</p>
+                        <h2 class="proyectos__titulo">Formulario Login</h2>
+                        <img class="img__proyectos" height="350" width="350" src="imagenes/Captura-Formulario-login.png">
+                        <p class="proyectos__descripcion">HTML5, CSS3 y JAVASCRIPT.</p>
                     </div>
 
                     <div class="proyectos__enlace">
-                        <a href="https://www.linkedin.com/in/sebastian-vazquez-67353722b"><img class="red" height="40" width="40" src="../imagenes/logo-linkedin.png" alt="logo linkedin">
-                            <p class="linked">LinkedIn</p>
+                        <a href="https://github.com/sebitaelgordito/Formulario-login-html-css-javascript"><img class="red" height="40" width="40" src="imagenes/logo-github.png" alt="logo github">
                         </a>
                     </div>
 
@@ -280,14 +284,55 @@
 
                 <li>
                     <div class="proyectos__contenido">
-                        <h2 class="proyectos__titulo">Cabello + Barba</h2>
-                        <img class="img__proyectos" height="450" width="450" src="imagenes/cabello+barba.jpg">
-                        <p class="proyectos__descripcion">Paquete completo de cabello y barba.</p>
+                        <h2 class="proyectos__titulo">Nike Ecommerce</h2>
+                        <img class="img__proyectos" height="350" width="350" src="imagenes/Captura-Nike-portada.png">
+                        <p class="proyectos__descripcion">HTML5, CSS3 y JAVASCRIPT.</p>
                     </div>
 
                     <div class="proyectos__enlace">
-                        <a href="https://www.linkedin.com/in/sebastian-vazquez-67353722b"><img class="red" height="40" width="40" src="../imagenes/logo-linkedin.png" alt="logo linkedin">
-                            <p class="linked">LinkedIn</p>
+                        <a href="https://github.com/sebitaelgordito/Pagina-de-nike-html-css-javascript"><img class="red" height="40" width="40" src="imagenes/logo-github.png" alt="logo github">
+                        </a>
+                    </div>
+
+                </li>
+
+                <li>
+                    <div class="proyectos__contenido">
+                        <h2 class="proyectos__titulo">App diplomatura</h2>
+                        <img class="img__proyectos" height="350" width="350" src="imagenes/Captura-App-python.png">
+                        <p class="proyectos__descripcion">Phyton</p>
+                    </div>
+
+                    <div class="proyectos__enlace">
+                        <a href="https://github.com/sebitaelgordito/Python"><img class="red" height="40" width="40" src="imagenes/logo-github.png" alt="logo github">
+                        </a>
+                    </div>
+
+                </li>
+
+                <li>
+                    <div class="proyectos__contenido">
+                        <h2 class="proyectos__titulo">juego de Sudoku</h2>
+                        <img class="img__proyectos" height="350" width="350" src="imagenes/Captura-Sudoku.png">
+                        <p class="proyectos__descripcion">HTML5, CSS3 y JAVASCRIPT.</p>
+                    </div>
+
+                    <div class="proyectos__enlace">
+                        <a href="https://github.com/sebitaelgordito/Sudoku-html-css-javascript"><img class="red" height="40" width="40" src="imagenes/logo-github.png" alt="logo github">
+                        </a>
+                    </div>
+
+                </li>
+
+                <li>
+                    <div class="proyectos__contenido">
+                        <h2 class="proyectos__titulo">juego de Tetris</h2>
+                        <img class="img__proyectos" height="350" width="350" src="imagenes/Captura-Tetris.png">
+                        <p class="proyectos__descripcion">HTML5, CSS3 y JAVASCRIPT.</p>
+                    </div>
+
+                    <div class="proyectos__enlace">
+                        <a href="https://github.com/sebitaelgordito/Tetris-html-css-javascript"><img class="red" height="40" width="40" src="imagenes/logo-github.png" alt="logo github">
                         </a>
                     </div>
 
@@ -300,9 +345,9 @@
 
         <section class="contacto" id="contact">
 
-            <h5 class="titulo__home">Contacto</h5>
+            <h5 class="titulo__home titulo__home-contacto">Contacto</h5>
 
-            <form class="contacto__formulario">
+            <form class="contacto__formulario" name="contact" netlify>
                 <label for="nombreyapellido">Nombre y/o empresa</label>
                 <input type="text" id="nombreyapellido" class="input__padron" required>
 
@@ -328,17 +373,17 @@
 
         <ul class="redes">
             <li class="red">
-                <a href="https://www.linkedin.com/in/sebastian-vazquez-67353722b"><img height="40" width="40" src="../imagenes/logo-linkedin.png" alt="logo linkedin">
+                <a href="https://www.linkedin.com/in/sebastian-vazquez-67353722b"><img height="40" width="40" src="imagenes/logo-linkedin.png" alt="logo linkedin">
                     <p class="linked">LinkedIn</p>
                 </a>
             </li>
             <li class="red">
-                <a href="https://www.instagram.com/sebi.cebolla/"><img height="40" width="40" src="../imagenes/logo-ig.png" alt="logo instagram">
+                <a href="https://www.instagram.com/sebi.cebolla/"><img height="40" width="40" src="imagenes/logo-ig.png" alt="logo instagram">
                     <p class="instagram">Instagram</p>
                 </a>
             </li>
             <li class="red">
-                <a href="https://github.com/sebitaelgordito"><img height="40" width="40" src="../imagenes/logo-github.png" alt="logo github">
+                <a href="https://github.com/sebitaelgordito"><img height="40" width="40" src="imagenes/logo-github.png" alt="logo github">
                     <p>GitHub</p>
                 </a>
             </li>
