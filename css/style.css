@@ -410,6 +410,10 @@ nav a:hover{
     --skills-bar-length:90%;
 }
 
+.skills__bar--100::after{
+    --skills-bar-length:100%;
+}
+
 @keyframes skills-bar-fill{
     to{
         transform: translateX(var(--skills-bar-length));
